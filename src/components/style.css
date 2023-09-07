@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 0px 50px;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border__run {
+    border: 1px solid rgb(128, 128, 128);
+    width: 900px;
+    height: 500px;
+    margin-top: 70px;
+}
+.margin_auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.first__title {
+    text-align: center;
+    margin-top: 15px;
+}
+.lorem__text {
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid red;
+}
+.first__btn {
+    padding: 4px 8px;
+    margin-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: rgb(170, 206, 253);
+    border: none;
+    /* transform: all 0.3s ease-out; */
+}
+

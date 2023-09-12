@@ -8,6 +8,7 @@
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
 }
 .border__run {
     border: 1px solid rgb(0, 0, 0);
@@ -16,8 +17,9 @@
     margin-top: 70px;
 }
 .margin_auto {
-    margin-left: auto;
-    margin-right: auto;
+   margin: auto;
+   border: 1px solid red;
+
 }
 .first__title {
     text-align: center;
@@ -34,7 +36,7 @@
 }
 .btn {
     padding: 10px 14px;
-    margin-left: 160px;
+    margin-left: 150px;
     margin-top: 15px;
     cursor: pointer;
     border: none;
@@ -53,10 +55,38 @@
 }
 .search {
     margin-top: 40px;
-    margin-right: 100px;
+    margin-right: 148px;
     padding: 9px 30px;
     padding-left: 5px;
     border-color: 1px solid #c2c2c293;
-
 }
+table td, th {
+    /* height: 25px; */
+    padding: 4px 8px;
+}
+.box__line {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.btns {
+    margin: 0px 5px;
+    padding: 4px 10px;
+}
+.ditail {
+    background-color: #4fffe2;
+    border: 1px solid white;
+}
+.edit {
+    background-color: #ffd000;
+    border: 1px solid white;
+}
+.delete {
+    background-color: #ff0000;
+    border: 1px solid white;
+    color: white;
+}
+
 

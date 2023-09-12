@@ -1,4 +1,5 @@
 import './style.css'
+import {Students} from './mock.jsx'
 
 const Crud = () => {
   return (
@@ -12,6 +13,32 @@ const Crud = () => {
                 <button className='second btn'>Create User</button>
                 <input type='search' placeholder='Search...' className='search'></input>
             </div> 
+            <table border='1px' className='box__line'>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Surname</th>
+                  <th>Age</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Jack</td>
+                  <td>Smith</td>
+                  <td>30</td>
+                  <td>Software Engineer</td>
+                  <td>
+                    <button className='btns ditail'>Ditail</button>
+                    <button className='btns edit'>Edit</button>
+                    <button className='btns delete'>Delete</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
         </div>
 
